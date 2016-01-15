@@ -1,0 +1,5 @@
+*.o
+send
+receive
+sendp
+*.txt
