@@ -10,8 +10,8 @@ typedef struct segment_s {
 } segment_t;
 
 // commands are to be converted to 0=code_zero & 1=code_one
-const segment_t cmd_part1      = {22, 0x22ca1d}; // 10111000 01010011 010001 || 11 11111111 11111111
-const segment_t cmd_part2      = {16, 0xffff};   // 10111000 01010011 010001 || 11 11111111 11111111
+const segment_t cmd_part1      = {22, 0x22ca1d}; // 10111000 01010011 010001
+const segment_t cmd_part2      = {16, 0xffff};   // 11111111 11111111
 const segment_t cmd_part3      = {7,  0x3f};     // 1111110
 const segment_t cmd_on         = {1,  0x0};      // 0
 const segment_t cmd_off        = {1,  0x1};      // 1
